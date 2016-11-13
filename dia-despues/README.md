@@ -1,6 +1,6 @@
-# muestra el dia despues de una fecha dada
+# Muestra el día después de una fecha dada
 
-Dias de los meses
+Días de los meses
 ```
 1 31
 2 28 y 29  en años bisiestos
