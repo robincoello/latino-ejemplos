@@ -1,7 +1,7 @@
 # muestra el dia despues de una fecha dada
 
 Dias de los meses
-
+```
 1 31
 2 28 y 29  en años bisiestos
 3 31
@@ -14,3 +14,4 @@ Dias de los meses
 10 31
 11 30 
 12 31 
+```
