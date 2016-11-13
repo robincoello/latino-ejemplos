@@ -1,0 +1,19 @@
+escribir('Dame un mes')
+m = leer()
+    
+elegir(m)
+        caso 1: // meses de 31 dias
+        caso 3:
+        caso 5:
+        caso 7:
+        caso 10:
+        caso 12:
+            escribir("mes de 31 dias")
+        caso 4:// meses de 30 dias
+        caso 6:
+        caso 9:
+        caso 11:
+            escribir("mes de 30 dias ")
+        caso 2: //feb que es de 28 y 29 dias 
+            escribir("Feb, de 28 o 29 dias")
+    fin
