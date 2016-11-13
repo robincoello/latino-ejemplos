@@ -1,0 +1,7 @@
+
+
+    mientras ( n == 0 || n == nulo )
+        escribir("Debe ser diferente a cero")
+        n = leer()
+    fin
+

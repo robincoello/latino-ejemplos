@@ -1,0 +1,60 @@
+funcion dia_corresponde_mes(d,m)
+/*
+
+*/
+
+
+
+
+    elegir(m)
+        caso:
+            escribir("c vale x")
+        caso 'y':
+            escribir("c vale y")
+        caso 'z':
+            escribir("c vale z")
+    fin
+fin
+
+funcion verificar_a(a)    
+    mientras ( a == 0  || a == nulo )
+        escribir("Debe ser diferente a cero")
+        a = leer()
+    fin
+fin 
+
+funcion verificar_m(m)    
+    mientras ( m <= 0 || m >= 13 )
+        escribir("Debe estar entre 1 y 12")
+        m = leer()
+    fin
+fin 
+
+funcion verificar_d(d)    
+    mientras ( d <= 0 || d >= 32 )
+        escribir("Debe estar entre 1 y 31")
+        m = leer()
+    fin
+fin 
+
+funcion fecha_dada(a,m,d)
+    escribir('La fecha dada es: ' .a. ' '.m.' '.d )
+fin
+
+
+escribir('Dame un año')
+a = leer()
+verificar_a(a)
+
+escribir('Dame un mes')
+m = leer()
+verificar_m(m)
+
+escribir('Dame un dia')
+d = leer()
+verificar_d(d)
+
+fecha_dada(a,m,d)
+
+
+
