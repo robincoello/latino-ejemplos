@@ -1,0 +1,18 @@
+// Latino 0.9.0
+// 
+// cuenta el largo de una cadena pasada como parametro, toma en cuenta los espacios en blanco 
+//  
+funcion contar(txt)
+largo = 0
+	si(! txt)
+		retorno largo		
+	sino				
+		mientras(txt[largo])					
+			largo++
+	fin
+		retorno largo
+	fin	
+fin
+
+txt = "demo"
+escribir("El largo de la frase es: ". contar(txt))
